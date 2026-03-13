@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "73cb1678ba2379d6",
+        "id": "180d8653510c4455",
         "type": "tabs",
         "children": [
           {
-            "id": "0d368158f9000a05",
+            "id": "34b85ec9e04883a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "node-js/bullmq-internals.md",
+                "file": "node-js/bullmq-internals-flow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bullmq-internals"
+              "title": "bullmq-internals-flow"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "node-js/bullmq-internals.md",
+                "file": "node-js/bullmq-internals-flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "bullmq-internals 的反向链接列表"
+              "title": "bullmq-internals-flow 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "node-js/bullmq-internals.md",
+                "file": "node-js/bullmq-internals-flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "bullmq-internals 的出链列表"
+              "title": "bullmq-internals-flow 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "node-js/bullmq-internals.md",
+                "file": "node-js/bullmq-internals-flow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "bullmq-internals 的大纲"
+              "title": "bullmq-internals-flow 的大纲"
             }
           }
         ]
@@ -184,9 +184,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d368158f9000a05",
+  "active": "34b85ec9e04883a5",
   "lastOpenFiles": [
-    "README.md",
-    "node-js/bullmq-internals.md"
+    "node-js/bullmq-internals-flow.md",
+    "node-js/bullmq-internals.md",
+    "redis/bullmq-repeatable-jobs-internals.md",
+    "redis",
+    "README.md"
   ]
 }
