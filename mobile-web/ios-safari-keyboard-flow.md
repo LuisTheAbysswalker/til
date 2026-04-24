@@ -1,7 +1,13 @@
 ---
 type: explanation
-tags: [ios, safari, mobile, keyboard, diagram]
+tags:
+  - ios
+  - safari
+  - mobile
+  - keyboard
+  - diagram
 created: 2026-04-18
+reference: http://www.alloyteam.com/2020/02/14265/
 ---
 
 # iOS Safari 键盘 focus 流程图（默认 vs preventScroll hack）
