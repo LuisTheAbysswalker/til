@@ -1,0 +1,48 @@
+# TIL index. Obsidian-only — GitHub does not render .base files,
+# so README.md remains the landing page for the public repo.
+#
+# Scope: every note that carries a `type` property. README.md has no
+# frontmatter, so it is excluded automatically. Diagram notes no longer
+# exist (diagrams are inlined), so nothing needs to be filtered out.
+#
+# New notes appear here on their own — never maintain this list by hand.
+
+filters:
+  and:
+    - 'file.ext == "md"'
+    - 'file.hasProperty("type")'
+
+properties:
+  type:
+    displayName: Type
+  tags:
+    displayName: Tags
+  created:
+    displayName: Created
+  source:
+    displayName: Source
+  file.folder:
+    displayName: Category
+
+views:
+  - type: table
+    name: "By type"
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - file.folder
+      - tags
+      - created
+
+  - type: table
+    name: "By category"
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - type
+      - created
+      - source
