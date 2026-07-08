@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "architecture/slack-message-data-design-tree.md",
+                "file": "codex/codex-agent-private-repo-access.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "slack-message-data-design-tree"
+              "title": "codex-agent-private-repo-access"
             }
           }
         ]
@@ -186,11 +186,12 @@
   },
   "active": "3c13400d53385b4d",
   "lastOpenFiles": [
+    "TIL.base",
+    "architecture/concurrent-api-premature-publish.md",
+    "architecture/slack-message-data-design-tree.md",
     "architecture/slack-message-data-design.md",
     "architecture/concurrent-api-premature-publish-flow.md",
-    "architecture/slack-message-data-design-tree.md",
     "architecture/slack-rich-text-mention-design.md",
-    "architecture/concurrent-api-premature-publish.md",
     "mobile-web/ios-safari-keyboard-flow.md",
     "mobile-web/ios-safari-keyboard-prevent-scroll.md",
     "react/ios-safari-overscroll-textarea-caret.md",
